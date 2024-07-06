@@ -64,6 +64,7 @@ const handleClick = (e) => {
     updateStatus();
   }
 };
+
 const handleReset = () => {
     board = ['', '', '', '', '', '', '', '', ''];
     currentPlayer = 'X';
