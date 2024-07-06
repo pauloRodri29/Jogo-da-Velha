@@ -46,7 +46,7 @@ const updateStatus = () => {
     resetButton.textContent = 'Reiniciar Jogo';
   } else {
     status.textContent = `É a vez de " ${currentPlayer} "`;
-    resetButton.textContent = 'Limpar';
+    resetButton.textContent = 'Reiniciar Jogo';
   }
 };
 
